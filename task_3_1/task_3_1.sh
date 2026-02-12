@@ -1,5 +1,6 @@
-if [ $# -ne 1 ]; then
-    echo "Usage: $0 'relative_file_path'"
+if [ $# -ne 1 ]
+then
+    echo "Usage: $0 'relative_file_path' and only one argument"
     exit 1
 else
     relative_file_path="$1"

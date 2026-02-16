@@ -8,4 +8,7 @@ cd ~/NMBU_2026-2026/TEL211/assignment_1/task_3_2/TEL211_2023/assignment_1_snippe
 # Now i want to run every .sh script in the diractory i cloned
 
 for script in *.sh
+do
+    bash "$script"
+done
 
